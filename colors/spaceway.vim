@@ -79,10 +79,10 @@ hi  TabLineFill    ctermbg=235     ctermfg=239    guibg=#303537    guifg=#303537
 hi  TabLineSel     ctermbg=145     ctermfg=0      guibg=#7D8FA3    guifg=#111314  cterm=NONE            gui=NONE
 hi  Directory      ctermbg=NONE    ctermfg=115    guibg=NONE       guifg=#5FAFAF  cterm=NONE            gui=NONE
 hi  MatchParen     ctermbg=NONE    ctermfg=11     guibg=NONE       guifg=#E5C078  cterm=bold            gui=bold
-hi  SpellBad       ctermbg=52      ctermfg=9      guibg=#10151a    guifg=#CC6666  cterm=undercurl       gui=NONE
-hi  SpellRare      ctermbg=53      ctermfg=13     guibg=#10151a    guifg=#B294BB  cterm=undercurl       gui=NONE
-hi  SpellCap       ctermbg=17      ctermfg=12     guibg=#10151a    guifg=#81A2BE  cterm=undercurl       gui=NONE
-hi  SpellLocal     ctermbg=24      ctermfg=14     guibg=#10151a    guifg=#8ABEB7  cterm=undercurl       gui=NONE
+hi  SpellBad       ctermbg=52      ctermfg=9      guibg=#10151a    guifg=#CC6666  cterm=undercurl       gui=undercurl
+hi  SpellRare      ctermbg=53      ctermfg=13     guibg=#10151a    guifg=#B294BB  cterm=undercurl       gui=undercurl
+hi  SpellCap       ctermbg=17      ctermfg=12     guibg=#10151a    guifg=#81A2BE  cterm=undercurl       gui=undercurl
+hi  SpellLocal     ctermbg=24      ctermfg=14     guibg=#10151a    guifg=#8ABEB7  cterm=undercurl       gui=undercurl
 
 hi link StatusLineTermNC StatusLineNC
 hi link StatusLineTerm StatusLine
