@@ -56,7 +56,7 @@ hi  DiffDelete     ctermbg=234     ctermfg=9      guibg=NONE       guifg=#CC6666
 hi  DiffText       ctermbg=60      ctermfg=251    guibg=#5F5F87    guifg=#D0D0D0  cterm=NONE            gui=NONE
 hi  helpLeadBlank  ctermbg=NONE    ctermfg=NONE   guibg=NONE       guifg=NONE     cterm=NONE            gui=NONE
 hi  helpNormal     ctermbg=NONE    ctermfg=NONE   guibg=NONE       guifg=NONE     cterm=NONE            gui=NONE
-hi  LineNr         ctermbg=NONE    ctermfg=243    guibg=#111314    guifg=#3E4853  cterm=NONE            gui=NONE
+hi  LineNr         ctermbg=NONE    ctermfg=243    guibg=#10151a    guifg=#3E4853  cterm=NONE            gui=NONE
 hi  CursorLineNr   ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
 hi  Pmenu          ctermbg=235     ctermfg=249    guibg=#303537    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  PmenuSel       ctermbg=110     ctermfg=235    guibg=#8FAFD7    guifg=#141617  cterm=bold            gui=bold
