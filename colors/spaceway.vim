@@ -17,13 +17,13 @@ set background=dark
 let colors_name = 'spaceway'
 
 " Colorscheme definitions {{{1
-hi Normal          ctermbg=NONE ctermfg=250     guibg=#262626  guifg=#BCBCBC cterm=NONE gui=NONE
+hi Normal          ctermbg=NONE ctermfg=250     guibg=#10151a  guifg=#BCBCBC cterm=NONE gui=NONE
 if has('nvim')
 	hi Comment          ctermbg=NONE ctermfg=243 guibg=NONE    guifg=#767676 cterm=italic gui=italic
 	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
 else
-	hi Comment          ctermbg=NONE ctermfg=243 guibg=NONE    guifg=#767676 cterm=NONE gui=NONE
-	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE gui=NONE
+	hi Comment          ctermbg=NONE ctermfg=243 guibg=NONE    guifg=#767676 cterm=italic gui=italic
+	hi StatusLineNC     ctermbg=235  ctermfg=232 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
 endif
 
 hi  Title          ctermbg=NONE    ctermfg=231    guibg=NONE       guifg=#eeeeee  cterm=NONE            gui=NONE
@@ -45,7 +45,7 @@ hi  SignColumn     ctermbg=233     ctermfg=250    guibg=#141617    guifg=#B3B8C4
 hi  Todo           ctermbg=NONE    ctermfg=167    guibg=NONE       guifg=#d75f5f  cterm=bold            gui=bold
 
 hi  Error          ctermbg=NONE    ctermfg=131    guibg=NONE       guifg=#af5f5f  cterm=reverse         gui=reverse
-hi  ErrorMsg       ctermbg=131     ctermfg=235    guibg=#af5f5f    guifg=#262626  cterm=NONE            gui=NONE
+hi  ErrorMsg       ctermbg=131     ctermfg=235    guibg=#af5f5f    guifg=#10151a  cterm=NONE            gui=NONE
 hi  Question       ctermbg=NONE    ctermfg=214    guibg=NONE       guifg=#FFAF00  cterm=NONE            gui=NONE
 hi  ModeMsg        ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
 hi  MoreMsg        ctermbg=NONE    ctermfg=249    guibg=NONE       guifg=#808080  cterm=NONE            gui=NONE
@@ -66,23 +66,23 @@ hi  WildMenu       ctermbg=110     ctermfg=235    guibg=#8FAFD7    guifg=#141617
 hi  StatusLine     ctermbg=239     ctermfg=232    guibg=#303537    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  Underlined     ctermbg=NONE    ctermfg=66     guibg=NONE       guifg=#5F8787  cterm=NONE            gui=NONE
 hi  ignore         ctermbg=NONE    ctermfg=103    guibg=NONE       guifg=#BCBCBC  cterm=NONE            gui=NONE
-hi  Visual         ctermbg=235     ctermfg=110    cterm=reverse    guibg=#262626  guifg=#8fafd7         gui=reverse
+hi  Visual         ctermbg=235     ctermfg=110    cterm=reverse    guibg=#10151a  guifg=#8fafd7         gui=reverse
 hi  VisualNOS      ctermbg=NONE    ctermfg=NONE   cterm=underline  guibg=NONE     guifg=NONE            gui=underline
 hi  FoldColumn     ctermbg=NONE    ctermfg=242    guibg=#1C1C1C    guifg=#6C6C6C  cterm=NONE            gui=NONE
 hi  Folded         ctermbg=NONE    ctermfg=242    guibg=#1C1C1C    guifg=#6C6C6C  cterm=NONE            gui=NONE
 hi  VertSplit      ctermbg=232     ctermfg=145    guibg=#1C1F20    guifg=#1C1F20  cterm=NONE            gui=NONE
 hi  IncSearch      ctermbg=9       ctermfg=0      guibg=#AF5F5F    guifg=#141617  cterm=NONE            gui=NONE
 hi  Search         ctermbg=NONE    ctermfg=NONE   guibg=NONE       guifg=NONE     cterm=underline,bold  gui=underline,bold
-hi  QuickFixLine   ctermbg=11  	   ctermfg=0   	  cterm=NONE       guibg=#ffffaf guifg=#262626          gui=NONE                                     
+hi  QuickFixLine   ctermbg=11  	   ctermfg=0   	  cterm=NONE       guibg=#ffffaf guifg=#10151a          gui=NONE                                     
 hi  TabLine        ctermbg=232     ctermfg=249    guibg=#141617    guifg=#B3B8C4  cterm=NONE            gui=NONE
 hi  TabLineFill    ctermbg=235     ctermfg=239    guibg=#303537    guifg=#303537  cterm=NONE            gui=NONE
 hi  TabLineSel     ctermbg=145     ctermfg=0      guibg=#7D8FA3    guifg=#111314  cterm=NONE            gui=NONE
 hi  Directory      ctermbg=NONE    ctermfg=115    guibg=NONE       guifg=#5FAFAF  cterm=NONE            gui=NONE
 hi  MatchParen     ctermbg=NONE    ctermfg=11     guibg=NONE       guifg=#E5C078  cterm=bold            gui=bold
-hi  SpellBad       ctermbg=52      ctermfg=9      guibg=#5F0000    guifg=#CC6666  cterm=NONE            gui=NONE
-hi  SpellRare      ctermbg=53      ctermfg=13     guibg=#5F005F    guifg=#B294BB  cterm=NONE            gui=NONE
-hi  SpellCap       ctermbg=17      ctermfg=12     guibg=#00005F    guifg=#81A2BE  cterm=NONE            gui=NONE
-hi  SpellLocal     ctermbg=24      ctermfg=14     guibg=#005F5F    guifg=#8ABEB7  cterm=NONE            gui=NONE
+hi  SpellBad       ctermbg=52      ctermfg=9      guibg=#10151a    guifg=#CC6666  cterm=underline       gui=NONE
+hi  SpellRare      ctermbg=53      ctermfg=13     guibg=#10151a    guifg=#B294BB  cterm=underline       gui=NONE
+hi  SpellCap       ctermbg=17      ctermfg=12     guibg=#10151a    guifg=#81A2BE  cterm=underline       gui=NONE
+hi  SpellLocal     ctermbg=24      ctermfg=14     guibg=#10151a    guifg=#8ABEB7  cterm=underline       gui=NONE
 
 hi link StatusLineTermNC StatusLineNC
 hi link StatusLineTerm StatusLine
