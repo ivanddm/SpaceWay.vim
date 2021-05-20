@@ -130,27 +130,46 @@ hi link htmlTag             htmlTagName
 hi link diffAdded           String
 hi link diffRemoved         Function
 
-let g:terminal_ansi_colors = [
-			\ '#3A3E42',
-			\ '#BF6262',
-			\ '#A2A565',
-			\ '#E9A96F',
-			\ '#789BAD',
-			\ '#9F7AA5',
-			\ '#638E8A',
-			\ '#737673',
-			\ '#5D6369',
-			\ '#BF6262',
-			\ '#A5A76E',
-			\ '#E9A96F',
-			\ '#789BAD',
-			\ '#9F7AA5',
-			\ '#9F7AA5',
-			\ '#b7bec9'
-			\ ]
+if has("nvim")
+	let g:terminal_color_0 =  "#3A3E42"
+	let g:terminal_color_1 =  "#BF6262"
+	let g:terminal_color_2 =  "#A2A565"
+	let g:terminal_color_3 =  "#E9A96F"
+	let g:terminal_color_4 =  "#789BAD"
+	let g:terminal_color_5 =  "#9F7AA5"
+	let g:terminal_color_6 =  "#638E8A"
+	let g:terminal_color_7 =  "#737673"
+	let g:terminal_color_8 =  "#5D6369"
+	let g:terminal_color_9 =  "#BF6262"
+	let g:terminal_color_10 = "#A5A76E"
+	let g:terminal_color_11 = "#E9A96F"
+	let g:terminal_color_12 = "#789BAD"
+	let g:terminal_color_13 = "#9F7AA5"
+	let g:terminal_color_14 = "#9F7AA5"
+	let g:terminal_color_15 = "#b7bec9"
+else
+	let g:terminal_ansi_colors = [
+				\ '#3A3E42',
+				\ '#BF6262',
+				\ '#A2A565',
+				\ '#E9A96F',
+				\ '#789BAD',
+				\ '#9F7AA5',
+				\ '#638E8A',
+				\ '#737673',
+				\ '#5D6369',
+				\ '#BF6262',
+				\ '#A5A76E',
+				\ '#E9A96F',
+				\ '#789BAD',
+				\ '#9F7AA5',
+				\ '#9F7AA5',
+				\ '#b7bec9'
+				\ ]
 
-if &diff
-	highlight! link DiffText MatchParen
-	highlight! clear DiffChange
-	highlight! link DiffChange NONE
+	if &diff
+		highlight! link DiffText MatchParen
+		highlight! clear DiffChange
+		highlight! link DiffChange NONE
+	endif
 endif
